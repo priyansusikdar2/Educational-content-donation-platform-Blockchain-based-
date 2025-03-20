@@ -31,4 +31,5 @@ The Educational Content Donation Platform is a decentralized platform where crea
 ✅ **Public Access**: Anyone can view content details and donation amounts.  
 
 ---
+![image](https://github.com/user-attachments/assets/24fec1cb-16e7-431e-92cb-bce8f2b6646a)
 
