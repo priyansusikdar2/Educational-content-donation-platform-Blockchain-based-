@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Educational Content Donation</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/web3/1.7.4/web3.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🎓 Educational Content Donation</h1>
+            <button id="connectBtn" onclick="connectWallet()">🔗 Connect Wallet</button>
+            <p id="walletAddress"></p>
+        </header>
+
+        <section class="content-form">
+            <h2>📚 Add Educational Content</h2>
+            <input type="text" id="title" placeholder="Enter Title">
+            <textarea id="description" placeholder="Enter Description"></textarea>
+            <button onclick="createContent()">➕ Submit Content</button>
+        </section>
+
+        <section class="content-list">
+            <h2>📂 Available Content</h2>
+            <div id="contentContainer" class="grid"></div>
+        </section>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
